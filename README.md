@@ -1,33 +1,90 @@
-# Job Application Tracker
+# 📋 Job Application Tracker
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftris010%2Fjob-application-tracker)
+🔗 **Live Demo:** https://job-application-tracker-ir89.vercel.app/  
+🐙 **Repository:** https://github.com/tris010/job-application-tracker  
 
-> **A privacy-focused, local-first Kanban board to track job applications without spreadsheets.**
+---
+
+## 🧠 Overview
+
+The **Job Application Tracker** is a simple, user-focused web application designed to help job seekers **organize, track, and manage their job applications efficiently**.
+
+Instead of relying on spreadsheets or scattered notes, this tool provides a **centralized and structured view** of applications, making it easier to monitor progress and follow up at the right time.
+
+---
+
+## 🎯 Problem
+
+When applying to multiple jobs across platforms, candidates often struggle to:
+- Remember where they have applied  
+- Track application status updates  
+- Manage interviews and follow-ups  
+
+This lack of visibility can lead to missed opportunities and poor organization.
+
+---
+
+## 💡 Solution
+
+This application solves the problem by allowing users to:
+- Add job applications with essential details  
+- Track the current status of each application  
+- View all applications in one clean interface  
+
+The design prioritizes **simplicity, clarity, and ease of use**, making it suitable for everyday job-search workflows.
+
+---
+
+## 🖼️ Application Preview
 
 [![Job Application Tracker UI](public/screenshot.png)](public/screenshot.png)
 
-## 🧩 Problem, Solution, & Outcome
+---
 
-- **Problem:** Managing hundreds of job applications in spreadsheets is tedious, visually unappealing, and makes it hard to track status changes (e.g., Applied → Interview) effectively.
-- **Solution:** Engineered a robust **Next.js Web Application** featuring a **Kanban-style interface**. Implemented a custom local storage hook for privacy-first data persistence, ensuring users own their data without complex database setups.
-- **Outcome:** Created a zero-latency tracking tool that simplifies the recruitment lifecycle, allowing for instant status updates and visual organization of 50+ applications.
+## 🚀 Live Application
 
-## 🛠️ Tech Stack
+👉 **Access the deployed application here:**  
+https://job-application-tracker-ir89.vercel.app/
 
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS + CSS Modules
-- **Icons:** Lucide React
-- **Persistence:** LocalStorage API (Custom Hook)
+The application is live and publicly accessible.
 
-## 💻 Running Locally
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend / Logic:** Node.js  
+- **Database:** SQLite  
+- **Deployment:** Vercel  
+
+---
+
+## 👩‍💻 My Role
+
+This was a **solo project**. I was responsible for:
+- Designing the application flow and data structure  
+- Implementing the core tracking logic  
+- Integrating database persistence  
+- Deploying and testing the application end-to-end  
+
+---
+
+## ✨ Key Features
+
+- Add and manage job applications  
+- Track application status (Applied, Interviewing, Rejected, etc.)  
+- Clean and minimal user interface  
+- Persistent data storage  
+- Fully deployed and accessible online  
+
+---
+
+## ▶️ Run Locally
+
+To run this project locally:
 
 ```bash
+git clone https://github.com/tris010/job-application-tracker
+cd job-application-tracker
 npm install
-npm run dev
-# Open http://localhost:3000
-```
-
-## 📜 Archives
-
-The legacy Python/SQLite CLI version is preserved in the [legacy/](./legacy) directory.
+npm start
