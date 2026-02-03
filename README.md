@@ -4,8 +4,7 @@
 
 > **A privacy-focused, local-first Kanban board to track job applications without spreadsheets.**
 
-![Application Screenshot](/public/window.svg)
-*(Note: Replace this with actual screenshot)*
+[![Job Application Tracker UI](public/screenshot.png)](public/screenshot.png)
 
 ## 🧩 Problem, Solution, & Outcome
 
